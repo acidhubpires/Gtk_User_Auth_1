@@ -1,0 +1,96 @@
+2024-08-05 19:36:37.277 -03 [21304] LOG:  iniciando PostgreSQL 16.3, compiled by Visual C++ build 1939, 64-bit
+2024-08-05 19:36:37.282 -03 [21304] LOG:  escutando no endereço IPv6 "::1", porta 5432
+2024-08-05 19:36:37.282 -03 [21304] LOG:  escutando no endereço IPv4 "127.0.0.1", porta 5432
+2024-08-05 19:36:37.349 -03 [21444] LOG:  sistema de banco de dados foi desligado em 2024-08-05 19:36:37 -03
+2024-08-05 19:36:37.370 -03 [21304] LOG:  sistema de banco de dados está pronto para aceitar conexões
+2024-08-05 19:38:12.336 -03 [17936] FATAL:  autenticação do tipo senha falhou para o usuário "piresaao"
+2024-08-05 19:38:12.336 -03 [17936] DETALHE:  A senha não corresponde para o usuário "piresaao".
+	A conexão correspondeu ao arquivo "C:/Users/aaopi/Developer/postgresql_data/pg_hba.conf" linha 117: "host    all             all             ::1/128                 md5"
+2024-08-05 19:38:43.724 -03 [21304] LOG:  pedido de desligamento rápido foi recebido
+2024-08-05 19:38:43.735 -03 [21304] LOG:  interrompendo quaisquer transações ativas
+2024-08-05 19:38:43.741 -03 [21304] LOG:  processo trabalhador em segundo plano "logical replication launcher" (PID 11780) terminou com código de retorno 1
+2024-08-05 19:38:43.744 -03 [5244] LOG:  desligando
+2024-08-05 19:38:43.747 -03 [5244] LOG:  ponto de verificação começando:  shutdown immediate
+2024-08-05 19:38:43.770 -03 [5244] LOG:  ponto de verificação concluído: escritos 3 buffers (0.0%); 0 arquivo(s) do WAL adicionados, 0 removidos, 0 reciclados; escritos=0.003 s, sincronizados=0.005 s, total=0.026 s; sincronizados files=2, mais longo=0.003 s, média=0.003 s; distância=0 kB, estimado=0 kB; lsn=0/1EF9D80, refeito lsn=0/1EF9D80
+2024-08-05 19:38:43.783 -03 [21304] LOG:  sistema de banco de dados está desligado
+2024-08-05 19:38:43.968 -03 [3812] LOG:  iniciando PostgreSQL 16.3, compiled by Visual C++ build 1939, 64-bit
+2024-08-05 19:38:43.973 -03 [3812] LOG:  escutando no endereço IPv6 "::1", porta 5432
+2024-08-05 19:38:43.973 -03 [3812] LOG:  escutando no endereço IPv4 "127.0.0.1", porta 5432
+2024-08-05 19:38:44.043 -03 [20856] LOG:  sistema de banco de dados foi desligado em 2024-08-05 19:38:43 -03
+2024-08-05 19:38:44.066 -03 [3812] LOG:  sistema de banco de dados está pronto para aceitar conexões
+2024-08-05 19:39:09.287 -03 [19652] FATAL:  autenticação do tipo senha falhou para o usuário "piresaao"
+2024-08-05 19:39:09.287 -03 [19652] DETALHE:  A senha não corresponde para o usuário "piresaao".
+	A conexão correspondeu ao arquivo "C:/Users/aaopi/Developer/postgresql_data/pg_hba.conf" linha 117: "host    all             all             ::1/128                 md5"
+2024-08-05 19:41:21.511 -03 [7328] FATAL:  autenticação do tipo senha falhou para o usuário "piresaao"
+2024-08-05 19:41:21.511 -03 [7328] DETALHE:  A senha não corresponde para o usuário "piresaao".
+	A conexão correspondeu ao arquivo "C:/Users/aaopi/Developer/postgresql_data/pg_hba.conf" linha 117: "host    all             all             ::1/128                 md5"
+2024-08-05 19:42:19.756 -03 [3812] LOG:  pedido de desligamento rápido foi recebido
+2024-08-05 19:42:19.760 -03 [3812] LOG:  interrompendo quaisquer transações ativas
+2024-08-05 19:42:19.772 -03 [3812] LOG:  processo trabalhador em segundo plano "logical replication launcher" (PID 10288) terminou com código de retorno 1
+2024-08-05 19:42:19.776 -03 [20224] LOG:  desligando
+2024-08-05 19:42:19.778 -03 [20224] LOG:  ponto de verificação começando:  shutdown immediate
+2024-08-05 19:42:19.807 -03 [20224] LOG:  ponto de verificação concluído: escritos 3 buffers (0.0%); 0 arquivo(s) do WAL adicionados, 0 removidos, 0 reciclados; escritos=0.007 s, sincronizados=0.005 s, total=0.032 s; sincronizados files=2, mais longo=0.003 s, média=0.003 s; distância=0 kB, estimado=0 kB; lsn=0/1EF9E30, refeito lsn=0/1EF9E30
+2024-08-05 19:42:19.824 -03 [3812] LOG:  sistema de banco de dados está desligado
+2024-08-05 19:42:20.076 -03 [11728] LOG:  iniciando PostgreSQL 16.3, compiled by Visual C++ build 1939, 64-bit
+2024-08-05 19:42:20.084 -03 [11728] LOG:  escutando no endereço IPv6 "::1", porta 5432
+2024-08-05 19:42:20.084 -03 [11728] LOG:  escutando no endereço IPv4 "127.0.0.1", porta 5432
+2024-08-05 19:42:20.220 -03 [12204] LOG:  sistema de banco de dados foi desligado em 2024-08-05 19:42:19 -03
+2024-08-05 19:42:20.254 -03 [11728] LOG:  sistema de banco de dados está pronto para aceitar conexões
+2024-08-05 19:42:42.469 -03 [6728] FATAL:  autenticação do tipo senha falhou para o usuário "piresaao"
+2024-08-05 19:42:42.469 -03 [6728] DETALHE:  A senha não corresponde para o usuário "piresaao".
+	A conexão correspondeu ao arquivo "C:/Users/aaopi/Developer/postgresql_data/pg_hba.conf" linha 117: "host    all             all             ::1/128                 md5"
+2024-08-05 19:44:35.060 -03 [11728] LOG:  pedido de desligamento rápido foi recebido
+2024-08-05 19:44:35.064 -03 [11728] LOG:  interrompendo quaisquer transações ativas
+2024-08-05 19:44:35.073 -03 [11728] LOG:  processo trabalhador em segundo plano "logical replication launcher" (PID 12076) terminou com código de retorno 1
+2024-08-05 19:44:35.078 -03 [11460] LOG:  desligando
+2024-08-05 19:44:35.081 -03 [11460] LOG:  ponto de verificação começando:  shutdown immediate
+2024-08-05 19:44:35.109 -03 [11460] LOG:  ponto de verificação concluído: escritos 3 buffers (0.0%); 0 arquivo(s) do WAL adicionados, 0 removidos, 0 reciclados; escritos=0.007 s, sincronizados=0.006 s, total=0.031 s; sincronizados files=2, mais longo=0.003 s, média=0.003 s; distância=0 kB, estimado=0 kB; lsn=0/1EF9EE0, refeito lsn=0/1EF9EE0
+2024-08-05 19:44:35.129 -03 [11728] LOG:  sistema de banco de dados está desligado
+2024-08-05 19:44:35.402 -03 [9336] LOG:  iniciando PostgreSQL 16.3, compiled by Visual C++ build 1939, 64-bit
+2024-08-05 19:44:35.409 -03 [9336] LOG:  escutando no endereço IPv6 "::1", porta 5432
+2024-08-05 19:44:35.410 -03 [9336] LOG:  escutando no endereço IPv4 "127.0.0.1", porta 5432
+2024-08-05 19:44:35.554 -03 [328] LOG:  sistema de banco de dados foi desligado em 2024-08-05 19:44:35 -03
+2024-08-05 19:44:35.599 -03 [9336] LOG:  sistema de banco de dados está pronto para aceitar conexões
+2024-08-05 19:44:57.499 -03 [3548] FATAL:  não existe o banco de dados "ai_meeting_room"
+2024-08-05 19:46:23.250 -03 [8760] FATAL:  autenticação do tipo senha falhou para o usuário "postgres"
+2024-08-05 19:46:23.250 -03 [8760] DETALHE:  A senha não corresponde para o usuário "postgres".
+	A conexão correspondeu ao arquivo "C:/Users/aaopi/Developer/postgresql_data/pg_hba.conf" linha 117: "host    all             all             ::1/128                 md5"
+2024-08-05 19:47:47.166 -03 [9336] LOG:  pedido de desligamento rápido foi recebido
+2024-08-05 19:47:47.170 -03 [9336] LOG:  interrompendo quaisquer transações ativas
+2024-08-05 19:47:47.180 -03 [9336] LOG:  processo trabalhador em segundo plano "logical replication launcher" (PID 8544) terminou com código de retorno 1
+2024-08-05 19:47:47.182 -03 [11888] LOG:  desligando
+2024-08-05 19:47:47.185 -03 [11888] LOG:  ponto de verificação começando:  shutdown immediate
+2024-08-05 19:47:47.212 -03 [11888] LOG:  ponto de verificação concluído: escritos 4 buffers (0.0%); 0 arquivo(s) do WAL adicionados, 0 removidos, 0 reciclados; escritos=0.006 s, sincronizados=0.006 s, total=0.030 s; sincronizados files=3, mais longo=0.003 s, média=0.002 s; distância=2 kB, estimado=2 kB; lsn=0/1EFA8C8, refeito lsn=0/1EFA8C8
+2024-08-05 19:47:47.222 -03 [9336] LOG:  sistema de banco de dados está desligado
+2024-08-05 19:47:47.442 -03 [20916] LOG:  iniciando PostgreSQL 16.3, compiled by Visual C++ build 1939, 64-bit
+2024-08-05 19:47:47.447 -03 [20916] LOG:  escutando no endereço IPv6 "::1", porta 5432
+2024-08-05 19:47:47.447 -03 [20916] LOG:  escutando no endereço IPv4 "127.0.0.1", porta 5432
+2024-08-05 19:47:47.539 -03 [4444] LOG:  sistema de banco de dados foi desligado em 2024-08-05 19:47:47 -03
+2024-08-05 19:47:47.566 -03 [20916] LOG:  sistema de banco de dados está pronto para aceitar conexões
+2024-08-05 19:48:14.713 -03 [14100] FATAL:  não existe o banco de dados "ai_meeting_room"
+2024-08-05 19:52:06.482 -03 [12652] ERRO:  a função de banco de dados (role) "piresaao" já existe
+2024-08-05 19:52:06.482 -03 [12652] INSTRUÇÂO:  CREATE USER piresaao WITH PASSWORD 'KiaraPanda$';
+2024-08-05 19:52:47.544 -03 [19464] LOG:  ponto de verificação começando:  time
+2024-08-05 19:54:33.045 -03 [19464] LOG:  ponto de verificação concluído: escritos 976 buffers (6.0%); 0 arquivo(s) do WAL adicionados, 0 removidos, 1 reciclados; escritos=104.874 s, sincronizados=0.608 s, total=105.504 s; sincronizados files=305, mais longo=0.053 s, média=0.002 s; distância=4592 kB, estimado=4592 kB; lsn=0/2376CE0, refeito lsn=0/2376CA8
+2024-08-05 19:55:11.302 -03 [20916] LOG:  pedido de desligamento rápido foi recebido
+2024-08-05 19:55:11.307 -03 [20916] LOG:  interrompendo quaisquer transações ativas
+2024-08-05 19:55:11.322 -03 [20916] LOG:  processo trabalhador em segundo plano "logical replication launcher" (PID 20552) terminou com código de retorno 1
+2024-08-05 19:55:11.325 -03 [19464] LOG:  desligando
+2024-08-05 19:55:11.328 -03 [19464] LOG:  ponto de verificação começando:  shutdown immediate
+2024-08-05 19:55:11.345 -03 [19464] LOG:  ponto de verificação concluído: escritos 0 buffers (0.0%); 0 arquivo(s) do WAL adicionados, 0 removidos, 0 reciclados; escritos=0.002 s, sincronizados=0.001 s, total=0.021 s; sincronizados files=0, mais longo=0.000 s, média=0.000 s; distância=0 kB, estimado=4133 kB; lsn=0/2376D90, refeito lsn=0/2376D90
+2024-08-05 19:55:11.371 -03 [20916] LOG:  sistema de banco de dados está desligado
+2024-08-05 19:55:11.687 -03 [9260] LOG:  iniciando PostgreSQL 16.3, compiled by Visual C++ build 1939, 64-bit
+2024-08-05 19:55:11.696 -03 [9260] LOG:  escutando no endereço IPv6 "::1", porta 5432
+2024-08-05 19:55:11.697 -03 [9260] LOG:  escutando no endereço IPv4 "127.0.0.1", porta 5432
+2024-08-05 19:55:11.833 -03 [16416] LOG:  sistema de banco de dados foi desligado em 2024-08-05 19:55:11 -03
+2024-08-05 19:55:11.874 -03 [9260] LOG:  sistema de banco de dados está pronto para aceitar conexões
+2024-08-05 20:00:11.820 -03 [9184] LOG:  ponto de verificação começando:  time
+2024-08-05 20:00:11.852 -03 [9184] LOG:  ponto de verificação concluído: escritos 3 buffers (0.0%); 0 arquivo(s) do WAL adicionados, 0 removidos, 0 reciclados; escritos=0.009 s, sincronizados=0.005 s, total=0.036 s; sincronizados files=2, mais longo=0.003 s, média=0.003 s; distância=0 kB, estimado=0 kB; lsn=0/2376E78, refeito lsn=0/2376E40
+2024-08-05 20:02:31.249 -03 [9260] LOG:  pedido de desligamento rápido foi recebido
+2024-08-05 20:02:31.251 -03 [13976] ERRO:  cancelando a instrução devido a pedido do usuário
+2024-08-05 20:02:31.253 -03 [9260] LOG:  interrompendo quaisquer transações ativas
+2024-08-05 20:02:31.262 -03 [9260] LOG:  processo trabalhador em segundo plano "logical replication launcher" (PID 13976) terminou com código de retorno 1
+2024-08-05 20:02:31.270 -03 [9184] LOG:  desligando
+2024-08-05 20:02:31.273 -03 [9184] LOG:  ponto de verificação começando:  shutdown immediate
+2024-08-05 20:02:31.291 -03 [9184] LOG:  ponto de verificação concluído: escritos 0 buffers (0.0%); 0 arquivo(s) do WAL adicionados, 0 removidos, 0 reciclados; escritos=0.001 s, sincronizados=0.001 s, total=0.021 s; sincronizados files=0, mais longo=0.000 s, média=0.000 s; distância=0 kB, estimado=0 kB; lsn=0/2376F28, refeito lsn=0/2376F28
+2024-08-05 20:02:31.311 -03 [9260] LOG:  sistema de banco de dados está desligado
