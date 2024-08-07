@@ -10,6 +10,8 @@ The AI Meeting Room project is a FastAPI-based web application designed to manag
     API Documentation: Auto-generated API documentation using OpenAPI and Swagger.
     Scalable Architecture: Easily scalable with Docker and containerization options.
     Development Tools: Includes configuration for VSCode and Postman for testing.
+<img src="assets/estrutura.jpg" alt="Diagrama do Projeto" width="600"/>
+
 
 3. Installation Guide
 
