@@ -1,10 +1,6 @@
-from fastapi import FastAPI
-from .routes import users
+from dotenv import load_dotenv
+import os
 
-app = FastAPI()
+load_dotenv()
 
-app.include_router(users.router, prefix="/users", tags=["users"])
-
-@app.get("/")
-def read_root():
-    return {"message": "Hello, World!"}
+DATABASE_URL = os.getenv('DATABASE_URL')
