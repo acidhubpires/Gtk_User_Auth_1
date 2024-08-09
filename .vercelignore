@@ -1,11 +1,10 @@
-*.md
-*.txt
-/docs
-/examples
 venv/
+tests/
+*.log
 *.pyc
 __pycache__/
-*.log
-*.sqlite3
-tests/
 node_modules/
+*.md
+.env
+.git/
+.gitignore
