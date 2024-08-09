@@ -1,6 +1,7 @@
-from dotenv import load_dotenv
-import os
+from fastapi import FastAPI
 
-load_dotenv()
+app = FastAPI()
 
-DATABASE_URL = os.getenv('DATABASE_URL')
+@app.get("/")
+def read_root():
+    return {"message": "Hello World"}

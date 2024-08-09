@@ -64,3 +64,4 @@ coverage.xml
 # Ignore Python virtual environment packages
 pip-log.txt
 pip-delete-this-directory.txt
+.vercel
