@@ -1,5 +1,11 @@
 *.md
 *.txt
-/tests
 /docs
 /examples
+venv/
+*.pyc
+__pycache__/
+*.log
+*.sqlite3
+tests/
+node_modules/
