@@ -1,1 +1,66 @@
+# Ignore virtual environments
+venv/
+env/
+.venv/
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code specific
+*.code-workspace
+.vscode/
+
+# macOS specific
+.DS_Store
+
+# Ignore environment variables file
+.env
+
+# Ignore Vercel configuration
+.vercel/
+
+# Ignore Python virtual environment packages
+pip-log.txt
+pip-delete-this-directory.txt

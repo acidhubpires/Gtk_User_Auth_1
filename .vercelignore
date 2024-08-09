@@ -1,0 +1,5 @@
+*.md
+*.txt
+/tests
+/docs
+/examples
