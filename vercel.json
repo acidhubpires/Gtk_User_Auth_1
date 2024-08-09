@@ -4,7 +4,6 @@
       {
         "src": "backend/app/main.py",
         "use": "@vercel/python",
-        "config": { "pythonVersion": "3.8" },
         "config": { "maxLambdaSize": "15mb" }
       }
     ],
